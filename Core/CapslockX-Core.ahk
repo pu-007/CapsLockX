@@ -355,12 +355,14 @@ CLX_Up()
         } else {
             ; 单击 CapsLockX
             if (CLX_上次触发键 == "CapsLock") {
+                ; 按下 Escape 键 for vim users
+                Send {Blind}{Escape}
                 ; 切换 CapsLock 状态（原功能）
-                if (GetKeyState("CapsLock", "T")) {
-                    SetCapsLockState, Off
-                } else {
-                    SetCapsLockState, On
-                }
+                ; if (GetKeyState("CapsLock", "T")) {
+                ;     SetCapsLockState, Off
+                ; } else {
+                ;     SetCapsLockState, On
+                ; }
             }
             ; 单击 空格键
             if (CLX_上次触发键 == "Space") {
