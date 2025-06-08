@@ -280,99 +280,6 @@ Anki Operation Enhancement
 | In Anki-Learning Mode | `Alt + i`              | Quickly import clipboard content (split by Tab), e.g., copy from Excel |
 | In Anki-Add Card Mode | `Alt + s`              | Press Add button                                             |
 
-<!-- MODULE_FILE: App-OneNote2019.ahk-->
-
-### OneNote 2016 - 2019 Enhancement
-
-Enhance OneNote 2016 - 2019 keyboard operations simply, conveniently use the keyboard to: switch pen, create links, organize pages, adjust views...
-
-#### SnowStarMeow Commonly Used Features
-
-1. When making logs, first use `Alt + T` on the note page to add a date label to the note title (for future search), then globally use `Win + Shift + N` to search OneNote for all notes with today's tag, making it easy to retrieve your daily: love diary, training log, daily book list, project daily report... In short, writing a diary in OneNote becomes very convenient, just press a button and it comes out, no need to find XD.
-2. Select a word and press `Alt + K`, it will list all related page links below this word, used for index directories, weaving your OneNote into a network.
-3. Create a new note, rename it to `My Clipboard`, then when copying text or pictures, CLX will automatically append it to this note, making it convenient to collect materials or excerpt articles.
-4. Alt + 1234567 level folding, easily switch between different levels of abstraction in thought.
-
-#### Key Distribution Design (Under Development)
-
-| Key Description          | Function                               | Notes     |
-| ------------------------ | --------------------------------------- | --------- |
-| `All OneNote Built-in Hotkeys` | Original Function                        |           |
-| `Press Alt then Another`   | Trigger OneNote Original Menu Function   |           |
-| `Alt + 1234567`          | Outline folding/unfolding to 1-7 levels |           |
-| `Alt + qwe asd r`        | Tools, switch pen, view                 |           |
-| `Alt + f`                | Search tags                             |           |
-| `Alt + - =`              | Formula related                         |           |
-| `Alt + m`                | Move notes, sections                    |           |
-| `Alt + hjkl`             | Various link functions                  |           |
-| `Alt + zxcv`             | Advanced copy-paste                     | Details in development |
-| `Alt + /`                | Hotkey Help, Tips                       | In development |
-| `F2 F3`                  | Rename, find notes                      |           |
-
-#### Detailed Key Table / CheatSheet
-
-| Applied To                | Format Hotkey                 | Function                                                                    |
-| ------------------------- | ----------------------------- | --------------------------------------------------------------------------- |
-| Global                    | `Win + Alt + N`               | Open the first page of quick notes (compensating for OneNote's lack of a homepage concept like Notion) |
-| Global                    | `Win + Shift + N`             | Open OneNote and precisely search today's tag                               |
-| OneNote2019               | `Alt + 1234567`               | Outline: Outline folding/unfolding to that level (highly recommended, super useful) |
-| OneNote2019               | `F2`                          | Organize: Rename note                                                       |
-| OneNote2019               | `Shift + F2`                  | Organize: Rename section                                                    |
-| OneNote2019               | `Alt + m`                     | Organize: Move note                                                         |
-| OneNote2019               | `Alt + Shift + m`             | Organize: Move section                                                      |
-| OneNote2019               | `Ctrl + n`                    | Organize: Create a new note                                                 |
-| OneNote2019               | `Ctrl + Alt + n`              | Organize: Create a new note below the current note                          |
-| OneNote2019               | `Alt + Delete`                | Organize: Quickly delete the current page                                   |
-| OneNote2019               | `Ctrl + s`                    | Organize: Sync this notebook immediately                                    |
-| OneNote2019               | `Ctrl + w`                    | Organize: Close window                                                      |
-| OneNote2019               | `Shift + Delete`              | Edit: Quickly delete the current line                                       |
-| OneNote2019               | `Alt + -`                     | Edit: Automatic 2D formula                                                  |
-| OneNote2019               | `Alt + k`                     | Edit: ⭐🔗 Expand related page links of the current keyword (fast one-to
-
-<!-- MODULE_FILE: App-XunFeiSwitching.ahk-->
-
-### iFlytek Input Method Floating Plugin
-
-#### Usage
-
-| Applied To |     Keys      | Function Description    |
-| ---------- | :-----------: | ----------------------- |
-| Global     | Win + Alt + H | Launch/Switch iFlytek Voice Input |
-
-#### Note
-
-1. If iFlytek Voice is not installed, it will automatically ask whether to guide the download and installation. 
-
-#### The effect is as shown in the picture below
-
-![App-iFlytek Voice Input Method Floating Window Demonstration.gif](./docs/media/App-iFlytek Voice Input Method Floating Window Demonstration.gif)
-
-<!-- MODULE_FILE: CLX-Brainstorm.ahk-->
-
-### CLX - Brainstorm Cerebral Storm
-
-Anytime, any input box, press `CLX+b` to start using AI-assisted input.
-
-#### Key Distribution (under development)
-
-| Key Description      | Function                                              | Note |
-| -------------------- | ----------------------------------------------------- | ---- |
-| CLX + b              | Automatically copy the currently selected content, input instructions, and let AI assist your input |      |
-| CLX + Alt + b        | Configure activation code (currently only a free plan, potential enhancements in the future) |      |
-| CLX + Shift + b      | Check usage quota                                    |      |
-
-#### Protips:
-
-##### Organize Meeting Notes Anytime
-
-1. Within any input box, use Win+H to bring up voice input, then say what you want to write; accuracy isn't crucial, just convey the general idea.
-2. Then, select all and press `CLX+b`, input `list key points and to-dos`, and you'll see AI automatically organize the key points and tasks.
-
-##### Translate Any Language to Any Language Anytime
-
-1. Within any input box, select the text you want to translate.
-2. Then, select all and press `CLX+b`, `to Chinese:` and AI will automatically help you input it in Chinese.
-
 <!-- MODULE_FILE: CLX-Edit.ahk-->
 
 ### Editor Enhancement Plugin (TG YUIO HJKL) 🌟
@@ -531,30 +438,6 @@ Utilize the deluxe configuration of 10 virtual desktops built into Win 10, autom
 | Global | `#PW#`    | Random input of an alphanumeric password, e.g., `yyCTCNYodECTLr2h`   |
 | Global | `#WPW#`   | Random input of an alphanumeric password, e.g., `FtD5BB1m5H98eY7Y`   |
 | Global | `#SPW#`   | Random input of an alphanumeric and symbol password, e.g., `/})y+xK]z~>XKQ+p` |
-
-<!-- MODULE_FILE: TomatoLife.ahk-->
-
-### Pomodoro Timer
-
-A 25-minute fixed cycle rest reminder.
-
-Use `CapsLockX + ,` to open the configuration, then modify EnableScheduleTasks=1 to enable this plugin.
-
-- Use Pomodoro timing (play work chime at 00 and 30 minutes, play rest chime at 25 and 55 minutes each hour) (requires enabling scheduled tasks first)
-
-  ```ini
-  UseTomatoLife=1
-  ```
-
-- Automatically switch desktops when using Pomodoro timing (rest desktop is 1, work desktop is 2)
-
-  ```ini
-  UseTomatoLifeSwitchVirtualDesktop=1
-  ```
-
-Note: If you only need the sound without automatic desktop switching, you can try this Chrome extension [Tomato Life - Chrome Web Store](https://chrome.google.com/webstore/detail/25min-tomato-life/kkacpbmkhbljebmpcopjlgfgbgeokbhn)
-
-Note: This plugin has been separated into an independent project. If you like the Pomodoro Technique, you can refer to Snow Star's tomato-life project: [snomiao/tomato-life](https://github.com/snomiao/tomato-life)
 
 <!-- MODULE_FILE: TurnOffScreenWhenLock.ahk-->
 
